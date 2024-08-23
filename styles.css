@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #00408d;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #007bff;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.job-item, .company-profile ul, .contact-form {
+    margin-bottom: 20px;
+}
+
+.job-item h4, .company-profile h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.job-item p, .company-profile p {
+    margin: 5px 0;
+}
+
+.job-item a, .apply-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.job-item a:hover, .apply-btn:hover {
+    background-color: #0056b3;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 5px 0;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007bff;
+    color: white;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .job-item h4, .company-profile h3 {
+        font-size: 18px;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 18px;
+    }
+
+    .job-item h4, .company-profile h3 {
+        font-size: 16px;
+    }
+
+    .job-item p, .company-profile p, .contact-form label {
+        font-size: 14px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
